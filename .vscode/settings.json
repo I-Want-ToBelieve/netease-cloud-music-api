@@ -1,0 +1,50 @@
+{
+  "deno.enable": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "eslint.format.enable": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.formatOnSave": true
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "json.schemas": [
+    {
+      "fileMatch": [".prettierrc", ".prettierrc.json"],
+      "url": "https://cdn.jsdelivr.net/gh/aMarCruz/prettier/schema.json"
+    }
+  ],
+  "Lua.diagnostics.globals": ["vim"],
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "files.associations": {
+    ".czrc": "jsonc",
+    ".huskyrc": "jsonc",
+    ".prettierrc": "jsonc",
+    ".commitlintrc": "jsonc",
+    ".lintstagedrc": "jsonc",
+    ".eslintignore": "ignore"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": false
+  }
+}
